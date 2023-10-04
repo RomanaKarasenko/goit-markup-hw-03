@@ -14,13 +14,9 @@ ul{
     list-style: none;
     margin: 0;
     padding-left: 0;
-}
-.allul{
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
     list-style-type: none;  
 }
+
 
 .body{
     font-family: "Roboto", sans-serif;
@@ -210,7 +206,7 @@ ul{
 }
 
 .first-container .text{
-    text-align:start;
+    text-align:left;
 }
 
 .first-container{
@@ -435,6 +431,7 @@ align-self: flex-start;
     align-items: flex-start;
     border: 1px solid #e7e9fc;
     background: var(--WHITE, #FFF);
+    border-top: none;
     padding: 32px 16px;
 
 }
