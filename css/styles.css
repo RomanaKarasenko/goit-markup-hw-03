@@ -27,8 +27,6 @@ body {
 
 .header {
     border-bottom: 1px solid #e7e9fc; 
-    padding: 24px 0;
-
    
 }
 
@@ -41,7 +39,7 @@ body {
 }
 
 .headercontainer{
-
+    
 }
 .header-navigation {
     display: flex;
@@ -89,6 +87,7 @@ body {
 }
 .header-menu-link{
     gap: 40px;
+    
 }
 
 .header-menu-link:hover{
@@ -284,13 +283,14 @@ width: calc((100% - 72px) / 4);
 .thirdli{
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px; 
-    padding: 32px 0;
+
 }
 .thirdimage {
     display: block;
     width: 100%;
 }
 .thirdcardcontainer {
+    padding: 32px 0;
 }
 .thirdteamparagraph {
     font-weight: 500;
