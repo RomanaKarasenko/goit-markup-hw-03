@@ -27,6 +27,8 @@ body {
 
 .header {
     border-bottom: 1px solid #e7e9fc; 
+    padding: 24px 0;
+
    
 }
 
@@ -74,10 +76,11 @@ body {
 .header-menu {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
    
 }
 .header-menu-item{
-    padding: 24px 0;
+
 
 }
 .header-menu-link {
@@ -281,6 +284,7 @@ width: calc((100% - 72px) / 4);
 .thirdli{
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px; 
+    padding: 32px 0;
 }
 .thirdimage {
     display: block;
@@ -397,7 +401,6 @@ width: calc((100% - 72px) / 4);
 }
 
 .footcont {
-    max-width: 1200px; 
     margin: 0 auto; 
     padding: 0 20px; 
     display: block;
