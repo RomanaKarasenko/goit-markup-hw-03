@@ -31,20 +31,20 @@ body {
 }
 
 .container {
-    display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    align-items: center;
+   
 }
 
 .headercontainer{
-  
+    display: flex;
+    align-items: center;
 }
 .header-navigation {
     display: flex;
     align-items:center; 
-    margin: 72px;
+    margin-right: auto;
 }
 .logo-header {
     font-family: "Raleway", sans-serif;  
